@@ -1,0 +1,28 @@
+{
+  "type": "module",
+  "name": "hospital_chatbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "heroku-postbuild": "cd chatbot-ui && npm install --force && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/griffins-thd/hospital_chatbot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/griffins-thd/hospital_chatbot/issues"
+  },
+  "homepage": "https://github.com/griffins-thd/hospital_chatbot#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "prompt-sync": "^4.2.0",
+    "socket.io": "^4.5.1"
+  }
+}
